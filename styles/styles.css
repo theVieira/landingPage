@@ -106,11 +106,27 @@ header {
   color: #2ecc71;
 }
 
+.align {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .socialIcons {
-  padding: 8px 12px;
+  width: 150px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .socialIcons a i{
   color: #2ecc71;
   font-size: 20px;
+}
+
+.socialIcons a i:hover {
+  scale: 1.1;
+  transition: 0.4s;
 }
